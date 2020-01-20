@@ -1,0 +1,20 @@
+
+
+body{
+
+    margin: 0;
+    padding: 30px;
+    font-family: sans-serif;
+}
+.eten{
+    float:right;
+    padding-right:400px;
+}
+
+.rojhatt{
+    text-align: right;
+}
+.button{
+    float: right;
+
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Burton Education</title>
+    <link rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="h06.css">
+
+<style>
+    div.form-group{
+        width: 500px;
+        padding: 20px;
+    }
+    input text{
+        float: right;
+        width: 300px;
+    }
+
+</style>
+</head>
+
+<body>
+<form action="https://www.savatarian.com/html5/form.php" method="post">
+    <h1>Voorbeeldformulier</h1>
+    <br>
+    <div class="form-group">
+        <label for="voornaam">Voornaam </label>
+        <input type="text" id="voornaam" name="voornaam" required>
+    </div>
+    <div class="eten">
+    <label>Lekker eten</label>
+
+        <input type="checkbox">
+        <label>Sperziebonen</label>
+        <br>
+
+        <div class="rojhatt"><input type="checkbox">&nbsp;&nbsp;&nbsp;<label>Aardappelen</label><br><input type="checkbox">&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>Hamburger</label></div>
+
+
+    </div>
+    <div class="form-group">
+        <label for="achternaam">Achternaam </label>
+        <input type="text" id="achternaam" name="achternaam" required>
+        </div>
+        <br><br>
+    <label for="geslacht">Geslacht</label>
+    <input type="radio" name="geslacht" id="geslacht" value="man"/>man
+    <input type="radio" name="geslacht" value="vrouw"/>vrouw
+    <br><br>
+
+    kleur ogen
+    <select name="kleur ogen" id="kleur ogen">
+        <option>groen</option>
+        <option>blauw</option>
+        <option>bruin</option>
+    </select>
+    <br><br>
+
+    Geboortedatum:
+    <input type="date" name="Geboortedatum">
+    <br><br>
+
+    Omschrijving<br><textarea name="omschrijving"></textarea>
+        <br><br><br><br>
+
+
+    <input class="button" type="button" onclick="alert('Geannuleerd')" value="annuleer">
+    <input class="button" type="submit" value="OK">
+
+
+
+</form>
+</body>
+</html>
